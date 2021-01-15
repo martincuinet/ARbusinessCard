@@ -1,0 +1,218 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.1.45",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Curve",
+            "rotation" : [
+                0.7071067690849304,
+                0,
+                0,
+                0.7071067690849304
+            ],
+            "scale" : [
+                108.01314544677734,
+                108.01314544677734,
+                108.01314544677734
+            ],
+            "translation" : [
+                0.24224825203418732,
+                1.954209804534912,
+                0
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Curve.001",
+            "rotation" : [
+                0.7071067690849304,
+                0,
+                0,
+                0.7071067690849304
+            ],
+            "scale" : [
+                108.01314544677734,
+                108.01314544677734,
+                108.01314544677734
+            ],
+            "translation" : [
+                0,
+                0.3842749297618866,
+                0.03196742385625839
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "SVGMat.001",
+            "pbrMetallicRoughness" : {}
+        },
+        {
+            "doubleSided" : true,
+            "name" : "SVGMat.002",
+            "pbrMetallicRoughness" : {}
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Curve",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Curve.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 337,
+            "max" : [
+                0.004399750381708145,
+                0.000461847084807232,
+                0.010069139301776886
+            ],
+            "min" : [
+                -0.016168812289834023,
+                -0.00046184720122255385,
+                -0.01006893627345562
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 337,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 337,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 624,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 8567,
+            "max" : [
+                0.012197043746709824,
+                0.00031398996361531317,
+                0.0015759440138936043
+            ],
+            "min" : [
+                -0.01440294086933136,
+                -0.0003139841428492218,
+                -0.002187616191804409
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 8567,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 8567,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 15612,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 4044,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4044,
+            "byteOffset" : 4044
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2696,
+            "byteOffset" : 8088
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1248,
+            "byteOffset" : 10784
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 102804,
+            "byteOffset" : 12032
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 102804,
+            "byteOffset" : 114836
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 68536,
+            "byteOffset" : 217640
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 31224,
+            "byteOffset" : 286176
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 317400,
+            "uri" : "ToonBoomLogo.bin"
+        }
+    ]
+}
