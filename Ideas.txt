@@ -1,0 +1,5 @@
+-------------IDEAS-------------
+
+1) Animation start when QR code is detected
+2) Mute 3D button (clickable 3d model) 
+3) particle effect
